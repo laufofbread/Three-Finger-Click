@@ -1,0 +1,79 @@
+body {
+    background:             #e6e6e6;
+    margin:                 0px;
+    padding:                0px;
+}
+
+h1 {
+    background-image:       url('/images/fullheader.gif');
+    background-position:    center 20px;
+    background-repeat:      no-repeat;
+    position:               absolute;
+    top:                    0px;
+    bottom:                 0px;
+    right:                  0px;
+    left:                   0px;
+    
+    -webkit-margin-before:  0em;
+    -webkit-margin-after:   0em;
+    -webkit-margin-start:   0px;
+    -webkit-margin-end:     0px;
+}
+
+a {
+    position:               absolute;
+	top:                    420px;
+	left:                   50%;
+    margin-left:            142px;
+    width:                  222px;
+	font-size:              13px;
+	font-family:            Helvetica, Arial, sans-serif;
+	font-weight:            200;
+	text-rendering:         optimizeLegibility; 
+	letter-spacing:         0;
+	line-height:            23px;
+    color:                  #333;
+    text-decoration:        none;
+}
+
+/*hexidecimal value for orange in header*/
+a:hover {
+    color:                  #ff9000;
+}
+
+/* menu style */
+#s2id_e1 {
+    position:               absolute;
+	top:                    385px;
+	left:                   50%;
+    margin-left:            94px;
+    width:                  222px;
+	font-size:              18px;
+	font-family:            Helvetica, Arial, sans-serif;
+	font-weight:            200;
+	text-rendering:         optimizeLegibility; 
+}
+
+.select2-results {
+	font-size:              14px;
+	font-family:            Helvetica, Arial, sans-serif;
+	font-weight:            200;
+	text-rendering:         optimizeLegibility; 
+}
+
+.select2-results .select2-highlighted {
+    background:                  #333;
+}
+
+.select2-container-multi.select2-container-active .select2-choices {
+    border:               1px solid #aaa;
+}
+
+
+
+/* class names for menu
+select2-container select2-container-multi select2-dropdown-open
+
+id name for whole group of classes
+s2id_e1*/
+
