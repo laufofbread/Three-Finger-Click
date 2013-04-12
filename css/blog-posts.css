@@ -2,3 +2,59 @@ body {
     background:             #e6e6e6;
 }
 
+/*classes for squares under title*/
+.underline-black {
+    width:                  900px;
+    margin-left:            auto;
+    margin-right:           auto;
+    position:               relative;
+}
+
+.underline-orange {
+    width:                  900px;
+    margin-left:            auto;
+    margin-right:           auto;
+    position:               absolute;
+}
+
+.black {
+    background-color:       #000;
+    
+}
+
+.orange {
+    background-color:       #ff9000;
+}
+
+span {
+    width:                  20px;
+    height:                 20px;
+    margin:                 2px;
+    float:                  right;
+}
+
+#block {
+    width:                  850px;
+    margin-left:            auto;
+    margin-right:           auto;
+    position:               relative;
+}
+
+h1, p {
+	font-family:            Arial, sans-serif;
+	font-weight:            100;
+	text-rendering:         optimizeLegibility; 
+	letter-spacing:         5;
+	line-height:            28px;
+}
+
+h1 {
+	font-size:              90px;
+    text-align:             center;
+}
+
+p {
+    font-size:              18px;
+    text-align:             left;
+}
+
