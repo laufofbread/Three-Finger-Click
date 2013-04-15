@@ -1,20 +1,23 @@
 body {
     background:             #e6e6e6;
+    background-image:       url('../images/bg.png');
+    margin:                 0px;
+    padding:                0px;
+    height:                 100%;
 }
 
 /*classes for squares under title*/
 .underline-black {
-    width:                  900px;
-    margin-left:            auto;
-    margin-right:           auto;
+    width:                  870px;
     position:               relative;
+    padding-left:           7px;
 }
 
 .underline-orange {
-    width:                  900px;
-    margin-left:            auto;
-    margin-right:           auto;
+    width:                  870px;
     position:               absolute;
+    padding-top:            5px;
+    padding-left:           2px;
 }
 
 .black {
@@ -29,15 +32,19 @@ body {
 span {
     width:                  20px;
     height:                 20px;
-    margin:                 2px;
-    float:                  right;
+    margin:                 5px;
+    float:                  left;
 }
 
 #block {
     width:                  850px;
-    margin-left:            auto;
-    margin-right:           auto;
-    position:               relative;
+    position:               fixed;
+    top:                    0px;
+    bottom:                 0px;
+    left:                   50%;
+    margin-left:            -425px;
+    background-image:       url("../images/block.png");
+    background-repeat:      repeat-y;
 }
 
 h1, p {
@@ -45,16 +52,25 @@ h1, p {
 	font-weight:            100;
 	text-rendering:         optimizeLegibility; 
 	letter-spacing:         5;
-	line-height:            28px;
+
 }
 
 h1 {
 	font-size:              90px;
     text-align:             center;
+    margin:                 0px;
+    line-height:            170px;
+    text-shadow:            -5px 5px 0px #ff9000;
 }
 
 p {
     font-size:              18px;
     text-align:             left;
+    clear:                  both;
+    padding-top:            20px;
+    padding-left:           30px;
+    padding-right:          30px;
+    padding-bottom:         0px;
+    line-height:            28px;
 }
 
