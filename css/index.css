@@ -1,8 +1,14 @@
+html {
+    min-height:                 100%;
+    margin:                     0px;
+    overflow:                   visible;
+}
 body {
     background:             #e6e6e6;
     margin:                 0px;
     padding:                0px;
-    background-image: url('../images/bg.png');
+    background-image:       url('../images/bg.png');
+    min-height:             100%;
 }
 
 h1 {
@@ -14,11 +20,9 @@ h1 {
     bottom:                 0px;
     right:                  0px;
     left:                   0px;
+    min-height:             100%; 
+    margin:                 0px;
     
-    -webkit-margin-before:  0em;
-    -webkit-margin-after:   0em;
-    -webkit-margin-start:   0px;
-    -webkit-margin-end:     0px;
 }
 
 a {
@@ -35,6 +39,8 @@ a {
 	line-height:            23px;
     color:                  #333;
     text-decoration:        none;
+    min-height:             100%;
+    min-width:                  100%;
 }
 
 /* hexidecimal value for orange in header */
@@ -69,12 +75,31 @@ a:hover {
 .select2-container-multi.select2-container-active .select2-choices {
     border:               1px solid #aaa;
 }
-
-
-
 /* class names for menu
 select2-container select2-container-multi select2-dropdown-open
 
 id name for whole group of classes
 s2id_e1*/
+
+
+/*text box for articles*/
+p {
+    background-color:       #000;
+    color:                  #fff;
+    width:                  600px;
+    margin-left:            auto;
+    margin-right:           auto;
+    position:               absolute;
+    top:                    450px;
+    left:                   50%;
+    margin-left:            -310px;
+    padding:                20px;
+    
+	font-size:              15px;
+	font-family:            Courier, Arial, sans-serif;
+	font-weight:            200;
+	text-rendering:         optimizeLegibility; 
+	letter-spacing:         0;
+	line-height:            20px;
+}
 
