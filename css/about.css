@@ -1,0 +1,25 @@
+html {
+    background: #e6e6e6 url('../images/bg.png');
+    margin:  0;
+    padding: 0;
+}
+
+body {
+    margin:                 0;
+    padding:                0 0 50px 0;
+    background-image:       url('../images/fullheader.gif');
+    background-position:    center 20px;
+    background-repeat:      no-repeat;
+}
+
+
+.postblock {
+    width:       640px;
+    padding:     10px 20px;
+    margin:      400px auto 0 auto;
+    font-family: monospace;
+    font-size:   16px;
+    color:       #eee;
+    background:  #333;
+}
+
