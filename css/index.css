@@ -43,10 +43,10 @@ body {
 
 a {
     position:               absolute;
-	top:                    424px;
+	top:                    430px;
 	left:                   50%;
-    margin-left:            142px;
-    width:                  222px;
+    margin-left:            101px;
+    width:                  210px;
 	font-size:              13px;
 	font-family:            Helvetica, Arial, sans-serif;
 	font-weight:            200;
@@ -88,6 +88,15 @@ a:hover {
 .select2-container-multi.select2-container-active .select2-choices {
     border:               1px solid #aaa;
 }
+
+input {
+	font-family:            Helvetica, Arial, sans-serif;
+	font-weight:            200;
+	text-rendering:         optimizeLegibility; 
+	letter-spacing:         0;
+	line-height:            23px;
+}
+
 /* class names for menu
 select2-container select2-container-multi select2-dropdown-open
 
