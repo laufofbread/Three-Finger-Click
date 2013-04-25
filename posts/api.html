@@ -11,25 +11,37 @@
     <meta name="description" content="Simplifying tech jargon for beginners.">
     <meta name="author" content="https://github.com/laufofbread/Three-Finger-Click">
 
-    <title>Three Finger Click | API</title>
+    <!-- REMEMBER TO CHANGE THIS! -->
+    <title>API | Three Finger Click</title>
 
-    <link rel="shortcut icon" href="images/favicon.gif">
-    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+    <link rel="shortcut icon" href="/images/favicon.gif">
+    <link rel="stylesheet" href="/js/select2-3.3.2/select2.css" type="text/css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="/css/blog-posts.css">
 
 </head>
 <body>
-    <p>What is an API?
-
-The wiki definition - "a protocol intended to be used as an interface by software components to communicate with each other"
-
-The first thing to know is that an API is a piece of software. It is comprised of rules, written in code, that dictate how one application communicates with another. It determines what format data must take and how it is received. An example that I'm sure most people who live in the 21st Century will have experienced is entering bank details. You know that annoying thing that happens when you enter your card number and it is rejected because you didn't put a space after every 4 numbers? That is the bank's API saying "Excuse me, Miss! Sure that's the correct amount of digits, and if some egghead developer had taught me how to add the spaces in myself you'd be on your way to blowing a weeks wages in the ASOS sale right now, but they didn't so I'm going to make you rewrite this whole page of information". You enter your information into the website, the website communicates with the bank API, the API rejects the data format. It is in this sense that we use the word interface because it is the interface to the bank's server. 
-
-The rules of the original Twitter API were 1) We accept text 2) We only accept 140 characters. It was beautifully simple and allowed programmers to develop apps that built on added functionality, like Tweetdeck or Twitpic, making Twitter the incredibly powerful tool it is today. Every time you score an achievement in Farmville or complete one of those ever insightful personality quizzes on OK Cupid and you post to Twitter it communicates with the API in order to do so, which means anyone can build it into their website.
-
-This cross site communication isn't the only advantage to sharing API's. If you are a developer then you can't ignore the incredible wealth of available code that allows you to have an effective interface relatively easily without re-inventing the wheel. Thankfully for us noobs the basic specifications have already been hacked out by the neckbeards of yore, such as the POSIX standard. I'll let you Google that one yourself.
-
-Of course, this process of communicating between sites takes time so you might be wondering how, in the majority of cases, error handling is achieved so quickly. Well, I'm still working that one out myself so maybe you'll have a post about it in a few weeks.
-</p>
+    <a href="/index.html" id="home"></a>
+    <h1>
+        <a href="/posts/about.html" title="About">Read about three finger click.</a>
+        
+        <select id="e1" multiple>
+            <option value="posts/api.html">API</option>
+            <option value="posts/client-serversidescripting.html">Client/Server Side Scripting</option>
+        </select>
+    
+    </h1>
+    
+    <div class="postblock">
+        <p>What is an API?</p>
+        <p>---</p>
+        <p>The first thing to know is that an API is a piece of software. It is comprised of rules, written in code, that dictate how one application communicates with another. It determines what format data must take and how it is received. An example that I'm sure most people who live in the 21st Century will have experienced is entering bank details. You know that annoying thing that happens when you enter your card number and it is rejected because you didn't put a space after every 4 numbers? That is the bank's API saying "Excuse me, Miss! Sure that's the correct amount of digits, and if some egghead developer had taught me how to add the spaces in myself you'd be on your way to blowing a weeks wages in the ASOS sale right now, but they didn't so I'm going to make you rewrite this whole page of information". You enter your information into the website, the website communicates with the bank API, the API rejects the data format. It is in this sense that we use the word interface because it is the interface to the bank's server.</p>
+        <p>The rules of the original Twitter API were 1) We accept text 2) We only accept 140 characters. It was beautifully simple and allowed programmers to develop apps that built on added functionality, like Tweetdeck or Twitpic, making Twitter the incredibly powerful tool it is today. Every time you score an achievement in Farmville or complete one of those ever insightful personality quizzes on OK Cupid and you post to Twitter it communicates with the API in order to do so, which means anyone can build it into their website.</p>
+        <p>This cross site communication isn't the only advantage to sharing API's. If you are a developer then you can't ignore the incredible wealth of available code that allows you to have an effective interface relatively easily without re-inventing the wheel. Thankfully for us noobs the basic specifications have already been hacked out by the neckbeards of yore, such as the POSIX standard. I'll let you Google that one yourself.</p>
+    </div>
+    
+	<script src="/js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/js/select2-3.3.2/select2.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/js/menu.js" type="text/javascript" charset="utf-8"></script>
+    
 </body>
 </html>
