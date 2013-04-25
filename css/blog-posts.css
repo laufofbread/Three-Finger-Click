@@ -20,7 +20,7 @@ body {
 .postblock {
     width:       640px;
     padding:     10px 20px;
-    margin:      415px auto 0 auto;
+    margin:      350px auto 0 auto;
     font-family: monospace;
     font-size:   16px;
     color:       #eee;
@@ -54,6 +54,7 @@ body {
 	line-height:            23px;
     color:                  #333;
     text-decoration:        none;
+    z-index:                -1;
 }
 
 /* hexidecimal value for orange in header */
@@ -80,6 +81,7 @@ a:hover {
 	font-family:            Helvetica, Arial, sans-serif;
 	font-weight:            200;
 	text-rendering:         optimizeLegibility; 
+    z-index:                -1;
 }
 
 .select2-results {
