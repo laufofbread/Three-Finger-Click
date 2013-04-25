@@ -1,76 +1,99 @@
+html {
+    background: #e6e6e6 url('../images/bg.png');
+    margin:  0;
+    padding: 0;
+    position:   absolute;
+    top:    0px;
+    left:   0px;
+    right:  0px;
+    bottom: 0px;
+}
+
 body {
-    background:             #e6e6e6;
-    background-image:       url('../images/bg.png');
-    margin:                 0px;
-    padding:                0px;
-    height:                 100%;
+    margin:                 0;
+    padding:                0 0 50px 0;
+    background-image:       url('../images/fullheader.gif');
+    background-position:    center 20px;
+    background-repeat:      no-repeat;
 }
 
-/*classes for squares under title*/
-.underline-black {
-    width:                  870px;
-    position:               relative;
-    padding-left:           7px;
-}
-
-.underline-orange {
-    width:                  870px;
-    position:               absolute;
-    padding-top:            5px;
-    padding-left:           2px;
-}
-
-.black {
-    background-color:       #000;
-    
-}
-
-.orange {
-    background-color:       #ff9000;
-}
-
-span {
-    width:                  20px;
-    height:                 20px;
-    margin:                 5px;
-    float:                  left;
-}
-
-#block {
-    width:                  850px;
-    position:               fixed;
-    top:                    0px;
-    bottom:                 0px;
-    left:                   50%;
-    margin-left:            -425px;
-    background-image:       url("../images/block.png");
-    background-repeat:      repeat-y;
-}
-
-h1, p {
-	font-family:            Arial, sans-serif;
-	font-weight:            100;
+.postblock {
+    width:       640px;
+    padding:     10px 20px;
+    margin:      415px auto 0 auto;
+    font-family: monospace;
+    font-size:   16px;
+    color:       #eee;
+    background:  #222;
 	text-rendering:         optimizeLegibility; 
-	letter-spacing:         5;
-
+	letter-spacing:         0;
+	line-height:            22px;
 }
 
-h1 {
-	font-size:              90px;
-    text-align:             center;
-    margin:                 0px;
-    line-height:            170px;
-    text-shadow:            -5px 5px 0px #ff9000;
+#home {
+    position:               absolute;
+    top:                    60px;
+    left:                   50%;
+    right:                  50%;
+    margin-left:            -325px;
+    width:                  650px;
+    height:                 330px;
 }
 
-p {
-    font-size:              18px;
-    text-align:             left;
-    clear:                  both;
-    padding-top:            20px;
-    padding-left:           30px;
-    padding-right:          30px;
-    padding-bottom:         0px;
-    line-height:            28px;
+a {
+    position:               absolute;
+	top:                    445px;
+	left:                   50%;
+    margin-left:            142px;
+    width:                  222px;
+	font-size:              13px;
+	font-family:            Helvetica, Arial, sans-serif;
+	font-weight:            200;
+	text-rendering:         optimizeLegibility; 
+	letter-spacing:         0;
+	line-height:            23px;
+    color:                  #333;
+    text-decoration:        none;
 }
+
+/* hexidecimal value for orange in header */
+a:hover {
+    color:                  #ff9000;
+}
+
+/* menu style */
+#s2id_e1 {
+	top:                    385px;
+	left:                   50%;
+    margin-left:            94px;
+    width:                  222px;
+	font-size:              18px;
+	font-family:            Helvetica, Arial, sans-serif;
+	font-weight:            200;
+	text-rendering:         optimizeLegibility; 
+}
+
+.select2-results {
+	font-size:              14px;
+	font-family:            Helvetica, Arial, sans-serif;
+	font-weight:            200;
+	text-rendering:         optimizeLegibility; 
+}
+
+.select2-results .select2-highlighted {
+    background:                  #333;
+}
+
+.select2-container-multi.select2-container-active .select2-choices {
+    border:               1px solid #aaa;
+}
+/* class names for menu
+select2-container select2-container-multi select2-dropdown-open
+
+id name for whole group of classes
+s2id_e1
+
+
+
+
 
