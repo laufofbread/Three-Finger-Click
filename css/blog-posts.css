@@ -22,9 +22,9 @@ body {
     padding:                10px 20px;
     margin:                 350px auto 0 auto;
     font-family:            Helvetica, Arial, sans-serif;
-    font-size:              20px;
+    font-size:              19px;
     color:                  #222;
-    background:             rgba(255, 255, 255, 0.95);
+    background:             rgba(255, 255, 255, 0.9);
 	text-rendering:         optimizeLegibility;
 	line-height:            1.5em;
 }
@@ -39,28 +39,7 @@ body {
     height:                 330px;
 }
 
-#about {
-    position:               absolute;
-	top:                    445px;
-	left:                   50%;
-    margin-left:            142px;
-    width:                  222px;
-	font-size:              13px;
-	font-family:            Helvetica, Arial, sans-serif;
-	font-weight:            200;
-	text-rendering:         optimizeLegibility; 
-	letter-spacing:         0;
-	line-height:            23px;
-    color:                  #333;
-    text-decoration:        none;
-    z-index:                -1;
-}
-
 /* hexidecimal value for orange in header */
-#about:hover {
-    color:                  #ff9000;
-}
-
 a {
     color:                  #ff9000;
     text-decoration:        none;
@@ -68,6 +47,12 @@ a {
 
 a:hover {
     color:                  #888;
+}
+
+br {
+    content:                " ";
+    display:                block;
+    margin:                 10px 0;
 }
 
 /* menu style */
@@ -81,8 +66,7 @@ a:hover {
 	font-weight:            200;
 	text-rendering:         optimizeLegibility; 
     z-index:                -1;
-    display:                none
-    ;
+    visibility:             hidden;
 }
 
 .select2-results {
