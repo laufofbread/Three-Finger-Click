@@ -36,6 +36,7 @@ h1 {
 	text-rendering:         optimizeLegibility;
     line-height:            2em;
     font-weight:            250;
+    margin-top:             10px;
 }
 
 #home {
