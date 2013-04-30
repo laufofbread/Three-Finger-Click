@@ -1,12 +1,12 @@
 html {
-    background: #e6e6e6 url('../images/bg.png');
-    margin:  0;
-    padding: 0;
-    position:   absolute;
-    top:    0px;
-    left:   0px;
-    right:  0px;
-    bottom: 0px;
+    background:             #e6e6e6 url('../images/bg.png');
+    margin:                 0;
+    padding:                0;
+    position:               absolute;
+    top:                    0px;
+    left:                   0px;
+    right:                  0px;
+    bottom:                 0px;
 }
 
 body {
@@ -22,11 +22,20 @@ body {
     padding:                10px 20px;
     margin:                 350px auto 0 auto;
     font-family:            Helvetica, Arial, sans-serif;
-    font-size:              19px;
+    font-size:              18px;
     color:                  #222;
     background:             rgba(255, 255, 255, 0.9);
 	text-rendering:         optimizeLegibility;
 	line-height:            1.5em;
+}
+
+h1 {
+    font-family:            Helvetica, Arial, sans-serif;
+    font-size:              30px;
+    color:                  #222;
+	text-rendering:         optimizeLegibility;
+    line-height:            2em;
+    font-weight:            250;
 }
 
 #home {
